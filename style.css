@@ -1,0 +1,57 @@
+body {
+    background-color: #FFF5E4;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+.hero img {
+    height: 250px;
+    border-radius: 50%;
+}
+
+.project img {
+    height: 200px;
+}
+
+.project {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+input {
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 25px;
+    border: none;
+    background-color: #FFD1D1;
+    padding: 7px;
+    transition: 0.5s;
+}
+
+input:hover {
+    background-color: #FF9494;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #FFD1D1;
+    display: flex;
+    justify-content: center;
+    margin: -10px;
+}
